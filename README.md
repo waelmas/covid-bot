@@ -6,7 +6,7 @@ covid-bot.com is an AI-powered chatbot created by Innaton Technologies Ltd. and 
 
 # Instructions
 
-Copy the code in "covid-embedded.hmtl" and paste it right before the end of the body of your websites' HTML (before the </body> tag)
+Copy the code in "covid-embedded.hmtl" and paste it right before the end of the body of your websites' HTML (before the < / body> tag)
 
 That's it! Now your users can benefit from covid-bot.com
 
