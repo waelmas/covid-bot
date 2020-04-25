@@ -12,7 +12,7 @@ That's it! Now your users can benefit from covid-bot.com
 
 Here's the code:
 ```
-<link rel="stylesheet" href="https://rawcdn.githack.com/waelmas/covid-bot/808f824d00ad53532c294cc739dccf24ffd6bdea/static/covid-embed.css">
+<link rel="stylesheet" href="https://rawcdn.githack.com/waelmas/covid-bot/469e7bd17f9069fd39cdbb22612bbef728805be9/static/covid-embed.css">
 
     <div class="covid-out" id="covid-bot-outer">
        
@@ -29,6 +29,7 @@ Here's the code:
 <div id="covid-chat" class="covid-chat"> <a href="javascript:openFrame();"><img class="chat-icon" style="max-width: 5%; float: right;" src="https://github.com/waelmas/covid-bot/blob/master/static/img/covid-chat.png?raw=true">
 </a></div>
 <script src="https://rawcdn.githack.com/waelmas/covid-bot/808f824d00ad53532c294cc739dccf24ffd6bdea/static/covid-embed.js"></script>
+
 ```
 # How it looks like
 
