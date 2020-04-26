@@ -46,7 +46,7 @@ Here's the code:
 
 ```
 
-NOTE: If your website has security config that prevents importing .css and .js scripts from other sources, then you can copy the JS script and the CSS code and include them as well in your HTML code AND doe not forget to delete the first and last line of the above code (```<link ... >``` & ```<script ... ></script>```).
+**NOTE:** If your website has security config that prevents importing .css and .js scripts from other sources, then you can copy the JS script and the CSS code and include them as well in your HTML code AND doe not forget to delete the first and last line of the above code (```<link ... >``` & ```<script ... ></script>```).
 
 Put the JS script between the ```<script>``` tags and the CSS code between the ```<style>``` tags:
 
@@ -68,6 +68,8 @@ CSS code: https://github.com/waelmas/covid-bot/blob/master/static/covid-embed.cs
 
 If you need help do not hesitate to reach out to info@covid-bot.com or info@innaton.com
 
+**You liked it? --> Show some love and "Star" this repository. 
+(If you share covid-bot.com or this repo with your friends then you're even more awesome!)**
 
 
 # IMPORTANT
