@@ -1,4 +1,4 @@
-            .covid-chat{
+  .covid-chat{
                 padding: 16px 20px;
       border: none;
       cursor: pointer;
@@ -12,7 +12,8 @@
             }
             .covid-out{
                 height: 700px; width:390px;
-            background-color: white;
+                
+                max-height: 97vh;
                 max-width: 100%;
                 padding: 16px 20px;
       border: none;
@@ -22,13 +23,27 @@
       bottom: 23px;
       right: 28px;
       display: none;
+
+      -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+    -khtml-border-radius: 5%;
+    border: 1px transparent;
             }
+        
 
 
 
             .embedded-chat{
                 height: 690px; width:390px;
-                border-radius: 5%;
+                max-height: 95vh;
+                background-color: white;
+            opacity: 1!important;
+            -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+    -khtml-border-radius: 5%;
+    border: 1px solid #fff;
 
             }
             @media (max-width: 1025px) {  
@@ -38,6 +53,7 @@
                 }
                 
                 .covid-chat{
+                    max-height: 97vh;
                 padding: 5px 5px;
       border: none;
       cursor: pointer;
@@ -67,7 +83,11 @@
 
             .embedded-chat{
                 height: 100%; width:100%;
-                border-radius: 5%;
+                max-height: 95vh;
+                background-color: white;
+            opacity: 1!important;
+
+
 
             }
 
