@@ -4,6 +4,15 @@ This is a simple solution to add covid-bot.com to your website.
 
 covid-bot.com is an AI-powered chatbot created by Innaton Technologies Ltd. and it can answer any question related to COVID-19, provide real-time data and much more.
 
+
+# How it looks like
+
+Example of how it looks like on our website http://innaton.com (you can test it there live)
+
+![covid-bot embedded innaton](static/embedded-innaton.gif)
+
+
+
 # Instructions
 
 Copy the code in "covid-embedded.hmtl" and paste it right before the end of the body of your websites' HTML (before the ```</body>``` tag)
@@ -57,13 +66,6 @@ CSS code: https://github.com/waelmas/covid-bot/blob/master/static/covid-embed.cs
 ```
 
 If you need help do not hesitate to reach out to info@covid-bot.com or info@innaton.com
-
-
-# How it looks like
-
-Example of how it looks like on our website http://innaton.com (you can test it there live)
-
-![covid-bot embedded innaton](static/embedded-innaton.gif)
 
 
 
