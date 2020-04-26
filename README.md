@@ -10,9 +10,12 @@ Copy the code in "covid-embedded.hmtl" and paste it right before the end of the 
 
 That's it! Now your users can benefit from covid-bot.com
 
+
+
 Here's the code:
 ```
-<link rel="stylesheet" href="https://rawcdn.githack.com/waelmas/covid-bot/469e7bd17f9069fd39cdbb22612bbef728805be9/static/covid-embed.css">
+    <link rel="stylesheet" href="https://rawcdn.githack.com/waelmas/covid-bot/41a424d20d1b1e280daead963b83720674ad8cc7/static/covid-embed.css">
+
 
     <div class="covid-out" id="covid-bot-outer">
        
@@ -20,26 +23,49 @@ Here's the code:
         <a href="javascript:closeFrame();"><img style="max-width: 5%; float: right;" src="https://github.com/waelmas/covid-bot/blob/master/static/img/close.png?raw=true">
         </a>
 
-        <iframe id="covid-frame"  src="" scrolling="yes" class="embedded-chat">
-        </iframe>
-    
+        <iframe id="covid-frame"  src="https://covid-bot.com/" scrolling="yes" class="embedded-chat" sandbox="allow-scripts allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation">
+        </iframe> 
+
         </div>
         </div>
 
 <div id="covid-chat" class="covid-chat"> <a href="javascript:openFrame();"><img class="chat-icon" style="max-width: 5%; float: right;" src="https://github.com/waelmas/covid-bot/blob/master/static/img/covid-chat.png?raw=true">
 </a></div>
-<script src="https://rawcdn.githack.com/waelmas/covid-bot/808f824d00ad53532c294cc739dccf24ffd6bdea/static/covid-embed.js"></script>
+
+<script type="text/javascript" src="https://rawcdn.githack.com/waelmas/covid-bot/41a424d20d1b1e280daead963b83720674ad8cc7/static/covid-embed.js"></script>
 
 ```
+
+NOTE: If your website has security config that prevents importing .css and .js scripts from other sources, then you can copy the JS script and the CSS code and include them as well in your HTML code AND doe not forget to delete the first and last line of the above code (```<link ... >``` & ```<script ... ></script>```).
+
+Put the JS script between the ```<script>``` tags and the CSS code between the ```<style>``` tags:
+
+JS code: https://github.com/waelmas/covid-bot/blob/master/static/covid-embed.js
+
+CSS code: https://github.com/waelmas/covid-bot/blob/master/static/covid-embed.css
+
+```
+ <style>
+  --- CSS CODE GOES HERE ---
+ </style
+ 
+ --- EMBEDDING CODE GOES HERE ---
+ 
+ <script type="text/javascript">
+  --- JS CODE GOES HERE ---
+ </script
+```
+
+If you need help do not hesitate to reach out to info@covid-bot.com or info@innaton.com
+
+
 # How it looks like
 
-Desktop:
+Example of how it looks like on our website http://innaton.com (you can test it there live)
 
-![covid-bot embedded desktop](static/embedded-desktop.gif)
+![covid-bot embedded innaton](static/embedded-innaton.gif)
 
-Mobile:
 
-![covid-bot embedded mobile](static/embedded-mobile.gif)
 
 # IMPORTANT
 
