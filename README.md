@@ -2,7 +2,8 @@
 # Description
 This is a simple solution to add covid-bot.com to your website.
 
-covid-bot.com is an AI-powered chatbot created by Innaton Technologies Ltd. and it can answer any question related to COVID-19, provide real-time data and much more.
+covid-bot.com is an AI-powered chatbot created by Innaton Technologies Ltd. and it can answer any question related
+to COVID-19, provide real-time data and much more.
 
 
 # How it looks like
