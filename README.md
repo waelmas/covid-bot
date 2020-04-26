@@ -1,4 +1,4 @@
-# Adding covid-bot.com to your website.
+# Embedding covid-bot.com to your website.
 # Description
 This is a simple solution to add covid-bot.com to your website.
 
