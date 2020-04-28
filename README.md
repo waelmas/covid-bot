@@ -35,7 +35,7 @@ Here's the code:
         <a href="javascript:closeFrame();"><img style="max-width: 5%; float: right;" src="https://github.com/waelmas/covid-bot/blob/master/static/img/close.png?raw=true">
         </a>
 
-        <iframe id="covid-frame"  src="https://covid-bot.com/chat" scrolling="yes" class="embedded-chat" sandbox="allow-scripts allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation">
+        <iframe id="covid-frame"  src="https://covid-bot.com/chat" scrolling="yes" class="embedded-chat" style="display: none;" sandbox="allow-scripts allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation">
         </iframe> 
 
         </div>
@@ -45,6 +45,8 @@ Here's the code:
 </a></div>
 
 <script type="text/javascript" src="https://rawcdn.githack.com/waelmas/covid-bot/ef6640e17391be499a2c5cf7c2b25fd289a0a0aa/static/covid-embed.js"></script>
+
+
 
 
 
