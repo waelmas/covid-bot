@@ -4,7 +4,7 @@
       cursor: pointer;
 
     position: fixed;
-    z-index: 999;
+    z-index: 1005;
       bottom: 23px;
       right: 28px;
 
@@ -19,7 +19,7 @@
       border: none;
       cursor: pointer;
     position: fixed;
-    z-index: 999;
+    z-index: 1005;
       bottom: 23px;
       right: 28px;
       display: none;
@@ -58,7 +58,7 @@
       border: none;
       cursor: pointer;
     position: fixed;
-    z-index: 999;
+    z-index: 1005;
       bottom: 10px;
       right: 10px;
 
@@ -73,7 +73,7 @@
       border: none;
       cursor: pointer;
     position: fixed;
-    z-index: 999;
+    z-index: 1005;
       bottom: 0;
       right: 0;
       display: none;
