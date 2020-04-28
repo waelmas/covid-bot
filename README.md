@@ -24,7 +24,8 @@ That's it! Now your users can benefit from covid-bot.com
 
 Here's the code:
 ```
-    <link rel="stylesheet" href="https://rawcdn.githack.com/waelmas/covid-bot/41a424d20d1b1e280daead963b83720674ad8cc7/static/covid-embed.css">
+    
+<link rel="stylesheet" href="https://rawcdn.githack.com/waelmas/covid-bot/41a424d20d1b1e280daead963b83720674ad8cc7/static/covid-embed.css">
 
 
     <div class="covid-out" id="covid-bot-outer">
@@ -33,7 +34,7 @@ Here's the code:
         <a href="javascript:closeFrame();"><img style="max-width: 5%; float: right;" src="https://github.com/waelmas/covid-bot/blob/master/static/img/close.png?raw=true">
         </a>
 
-        <iframe id="covid-frame"  src="https://covid-bot.com/" scrolling="yes" class="embedded-chat" sandbox="allow-scripts allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation">
+        <iframe id="covid-frame"  src="https://covid-bot.com/chat/" scrolling="yes" class="embedded-chat" sandbox="allow-scripts allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation">
         </iframe> 
 
         </div>
@@ -42,7 +43,7 @@ Here's the code:
 <div id="covid-chat" class="covid-chat"> <a href="javascript:openFrame();"><img class="chat-icon" style="max-width: 5%; float: right;" src="https://github.com/waelmas/covid-bot/blob/master/static/img/covid-chat.png?raw=true">
 </a></div>
 
-<script type="text/javascript" src="https://rawcdn.githack.com/waelmas/covid-bot/41a424d20d1b1e280daead963b83720674ad8cc7/static/covid-embed.js"></script>
+<script type="text/javascript" src="https://rawcdn.githack.com/waelmas/covid-bot/2e7c862bc855f69f9ead09ad0d15cc096f6e0b5c/static/covid-embed.js"></script>
 
 ```
 
