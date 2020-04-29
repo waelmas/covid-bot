@@ -20,8 +20,8 @@
       cursor: pointer;
     position: fixed;
     z-index: 1005;
-      bottom: 23px;
-      right: 28px;
+      bottom: 30px;
+      right: 60px;
       display: none;
 
       -webkit-border-radius: 5%;
@@ -46,6 +46,15 @@
     border: 1px solid #fff;
 
             }
+
+.close-image{
+max-width: 5%;
+    top: 25px;
+    position: relative;
+    float: right;
+    margin-right: -17px!important;
+}
+
             @media (max-width: 1025px) {  
                 .chat-icon{
                     width: 17%!important;
@@ -86,9 +95,13 @@
                 max-height: 95vh;
                 background-color: white;
             opacity: 1!important;
-
-
-
             }
-
+    .close-image{
+        max-width: 5%;
+        top: 25px;
+        position: relative;
+        float: right;
+        margin-right: 5px!important;
+    }
+              
             }
