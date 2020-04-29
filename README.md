@@ -34,7 +34,7 @@ Here's the code:
             <a href="javascript:closeFrame();"><img class="close-image" src="https://github.com/waelmas/covid-bot/blob/master/static/img/close2.png?raw=true">
             </a>
 
-        <iframe id="covid-frame"  src="/chat" scrolling="yes" class="embedded-chat" sandbox="allow-scripts allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation">
+        <iframe id="covid-frame"  src="https://covid-bot.com/chat" scrolling="yes" class="embedded-chat" sandbox="allow-scripts allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation">
         </iframe> 
 
         </div>
