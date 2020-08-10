@@ -21,7 +21,7 @@ Copy the code in "covid-embedded.hmtl" and paste it right before the end of the 
 That's it! Now your users can benefit from covid-bot.com
 
 
-# IMPORTANT: Please follow the 2nd approach as rawcdn githack service is having issues
+# IMPORTANT: Please follow the 2nd approach OR simply copy the "embedded-full.html" as rawcdn githack service is having issues
 
 Here's the code:
 ```
