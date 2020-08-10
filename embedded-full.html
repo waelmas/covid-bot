@@ -1,0 +1,145 @@
+<style>
+        .covid-chat {
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            position: fixed;
+            z-index: 1005;
+            bottom: 23px;
+            right: 28px;
+        }
+
+        .covid-out {
+            height: 700px;
+            width: 390px;
+            max-height: 97vh;
+            max-width: 100%;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            position: fixed;
+            z-index: 99999;
+            bottom: 30px;
+            right: 60px;
+            display: none;
+            border: 1px transparent;
+            border-radius: 7px;
+            -webkit-border-radius: 7px;
+            -moz-border-radius: 7px;
+
+        }
+
+        .covid-out iframe {
+            border: 0px transparent;
+            border-radius: 7px;
+            -webkit-border-radius: 7px;
+            -moz-border-radius: 7px;
+        }
+
+        .embedded-chat {
+            height: 690px;
+            width: 390px;
+            max-height: 95vh;
+            background-color: white;
+            opacity: 1 !important;
+            border: 1px solid #6D2DAD;
+            border-radius: 7px;
+            -webkit-border-radius: 7px;
+            -moz-border-radius: 7px;
+
+        }
+
+        .close-image {
+            max-width: 5%;
+            top: 1vh;
+            position: relative;
+            float: right;
+            margin-right: -3.5vh !important;
+        }
+
+        @media (max-width:764px) {
+            .chat-icon {
+                width: 17% !important;
+                max-width: 17% !important;
+            }
+
+            .covid-chat {
+                max-height: 97vh;
+                padding: 5px 5px;
+                border: none;
+                cursor: pointer;
+                position: fixed;
+                z-index: 99999;
+                bottom: 10px;
+                right: 10px;
+            }
+
+            .covid-out {
+                height: 95%;
+                width: 100%;
+
+                max-width: 100%;
+                padding: 0;
+                padding-bottom: 5%;
+                border: none;
+                cursor: pointer;
+                position: fixed;
+                z-index: 99999;
+                bottom: 0;
+                right: 0;
+                display: none;
+            }
+
+            .embedded-chat {
+                height: 100%;
+                width: 100%;
+                max-height: 95vh;
+                background-color: white;
+                opacity: 1 !important;
+            }
+
+            .close-image {
+                max-width: 5%;
+                top: 1vh;
+                position: relative;
+                float: right;
+                margin-right: 3.5vh !important;
+            }
+        }
+    </style>
+    
+    <div class="covid-out" id="covid-bot-outer" style="display: none;">
+        <div style="height: 100%;">
+            <a href="javascript:closeFrame();"><img class="close-image" src="https://covid-bot.com/static/assets/img/close2.png">
+            </a>
+            <iframe id="covid-frame" src="https://covid-bot.com/chat2" scrolling="yes" class="embedded-chat" sandbox="allow-scripts allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation">
+            </iframe>
+        </div>
+    </div>
+    
+    <div id="covid-chat" class="covid-chat"> <a href="javascript:openFrame();"><img class="chat-icon" style="max-width: 5%; float: right;" src="https://covid-bot.com/static/assets/img/covid-chat.png">
+        </a></div>
+        
+        <script type="text/javascript">
+        function closeFrame() {
+            document.getElementById("covid-bot-outer").style.display = "none";
+            document.getElementById("covid-chat").style.display = "unset";
+            var originalsettingofhost = localStorage.getItem("hostoverflow");
+            var bodyofhost = document.getElementsByTagName("BODY")[0];
+            bodyofhost.style.overflow = originalsettingofhost;
+        }
+        function openFrame() {
+            document.getElementById("covid-bot-outer").style.display = "unset";
+            document.getElementById("covid-chat").style.display = "none";
+            var bodyofhost = document.getElementsByTagName("BODY")[0];
+            try {
+                var originalsettingofhost = bodyofhost.style.overflow;
+            }
+            catch (err) {
+                var originalsettingofhost = "auto";
+            }
+            //save Host overflow to restore it when chat frame is closed (This is to prevent scrolling issues)
+            localStorage.setItem("hostoverflow", originalsettingofhost);
+            bodyofhost.style.overflow = "hidden";
+        }
+    </script>
