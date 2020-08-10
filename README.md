@@ -21,6 +21,7 @@ Copy the code in "covid-embedded.hmtl" and paste it right before the end of the 
 That's it! Now your users can benefit from covid-bot.com
 
 
+# IMPORTANT: Please follow the 2nd approach as rawcdn githack service is having issues
 
 Here's the code:
 ```
@@ -78,3 +79,6 @@ If you need help do not hesitate to reach out to info@covid-bot.com or info@inna
 
 No one is allowed to charge users for the usage of covid-bot.com UNLESS they have a written agreement with us first.
 For info reach me at: info@covid-bot.com OR info@innaton.com
+
+It is your legal responsibility to add the cookies mentioned in our original cookies-policy to your own cookies policy.
+https://covid-bot.com/cookies
