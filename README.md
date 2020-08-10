@@ -20,6 +20,7 @@ Copy the code in "covid-embedded.hmtl" and paste it right before the end of the 
 
 That's it! Now your users can benefit from covid-bot.com
 
+Adblockers might cause the chatbot embedding to work in unexpected way. If you see any issues, try accessing it from Incognito. If it works, then it's definetely the adblocker considering the fetch of some files and images as a false-positive.
 
 # IMPORTANT: Please follow the 2nd approach OR simply copy the "embedded-full.html" as rawcdn githack service is having issues
 
